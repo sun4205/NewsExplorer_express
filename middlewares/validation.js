@@ -35,3 +35,9 @@ const validateUserInfo = celebrate({
     }),
   }),
 });
+
+module.exports = {
+    validateEmail,
+    validateUserLogin,
+    validateUserInfo
+}
