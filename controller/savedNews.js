@@ -40,7 +40,7 @@ const savedArticle = (req,res,next) => {
     
     
     const deleteArticle = (req, res, next) => {
-      const userId = req.user._id;
+      const articleId = req.params.id; 
       const { id } = req.params; 
     
       if (!userId) {

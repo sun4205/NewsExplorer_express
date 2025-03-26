@@ -18,7 +18,7 @@ module.exports = (req, res, next) => {
       return next(new UnauthorizedError("Invalid token"));
     }
   
-    req.user = payload;
+    req.user = { _id: payload.userId };
   
     return next();
   };
