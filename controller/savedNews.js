@@ -21,11 +21,12 @@ const getSavedArticles = (req, res, next) => {
 const savedArticle = (req,res,next) => {
     const userId = req.user._id;
     const { source, title, date, description, image } = req.body;
+    const articleId = req.params.id;
     if(!userId) {
         return next(new UnauthorizedError("please login!"))
     }
     const newArticle = {
-        id: Date.now().toString(), 
+        id: articleId, 
         userId, 
         source,
         title,
@@ -41,7 +42,7 @@ const savedArticle = (req,res,next) => {
     
     const deleteArticle = (req, res, next) => {
       const articleId = req.params.id; 
-      const { id } = req.params; 
+      const userId = req.user._id;
     
       if (!userId) {
         return next(new UnauthorizedError("please login!"));
