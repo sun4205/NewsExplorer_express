@@ -9,51 +9,54 @@ const ConflictError = require("../utils/errors/ConflictError");
 const users = [];
 
 const getCurrentUser = (req, res, next) => {
-    const userId = req.user._id;
-  
-    const user = users.find((user) => user._id === userId); 
+  const userId = req.user._id;
+  console.log("Request User ID:", userId);
+
+  const user = users.find((user) => user._id === userId);
 
   if (!user) {
-    return next(new NotFoundError("User not found."));
+    console.error("user not found!");
+    return next(new NotFoundError("User not found"));
   }
-  
-  return res.send({ _id: user._id, username: user.username, email: user.email });
+
+  console.log("user:", user);
+  res.send(user);
 };
 
-
 const createUser = (req, res, next) => {
-    const { username, email, password } = req.body;
-  
-    if (!username || !email || !password) {
-      return next(new BadRequestError("All fields are required."));
-    }
-  
-    const existingUser = users.find((user) => user.email === email); 
-    if (existingUser) {
-      return next(new ConflictError("A user with this email already exists."));
-    }
-  
-    bcrypt.hash(password, 10)
-      .then((hashedPassword) => {
-        const newUser = {
-          _id: Date.now().toString(),  
-          username,
-          email,
-          password: hashedPassword,
-        };
-  
-        users.push(newUser); 
-  
-        return res.status(201).send({
-          _id: newUser._id,
-          username: newUser.username,
-          email: newUser.email,
-        });
-      })
-      .catch((err) => {
-        return next(err);
+  const { username, email, password } = req.body;
+
+  if (!username || !email || !password) {
+    return next(new BadRequestError("All fields are required."));
+  }
+
+  const existingUser = users.find((user) => user.email === email);
+  if (existingUser) {
+    return next(new ConflictError("A user with this email already exists."));
+  }
+
+  bcrypt
+    .hash(password, 10)
+    .then((hashedPassword) => {
+      const newUser = {
+        _id: Date.now().toString(),
+        username,
+        email,
+        password: hashedPassword,
+      };
+
+      users.push(newUser);
+
+      return res.status(201).send({
+        _id: newUser._id,
+        username: newUser.username,
+        email: newUser.email,
       });
-  };
+    })
+    .catch((err) => {
+      return next(err);
+    });
+};
 
 const login = (req, res, next) => {
   const { email, password } = req.body;
@@ -63,18 +66,21 @@ const login = (req, res, next) => {
     return next(new BadRequestError("Email and password are required."));
   }
 
-  const user = users.find((user) => user.email === email); 
+  const user = users.find((user) => user.email === email);
   if (!user) {
     return next(new UnauthorizedError("Invalid email or password."));
   }
 
-  bcrypt.compare(password, user.password)
+  bcrypt
+    .compare(password, user.password)
     .then((isMatch) => {
       if (!isMatch) {
         return next(new UnauthorizedError("Invalid email or password."));
       }
 
-      const token = jwt.sign({ _id: user._id }, JWT_SECRET, { expiresIn: "7d" });
+      const token = jwt.sign({ _id: user._id }, JWT_SECRET, {
+        expiresIn: "7d",
+      });
       return res.send({ token });
     })
     .catch((err) => {

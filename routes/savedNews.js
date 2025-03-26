@@ -8,7 +8,7 @@ const {
 } = require("../controller/savedNews");
 
 router.get("/saveNews", auth, getSavedArticles);
-router.post("/saveNews", auth, savedArticle);
+
 router.put("/saveNews/:id", auth, (req, res, next) => {
   const articleId = decodeURIComponent(req.params.id);
   req.params.id = articleId;

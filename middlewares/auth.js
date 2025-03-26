@@ -14,11 +14,13 @@ module.exports = (req, res, next) => {
   
     try {
       payload = jwt.verify(token, JWT_SECRET);
+      console.log("Payload:", payload); 
     } catch (err) {
       return next(new UnauthorizedError("Invalid token"));
     }
   
-    req.user = { _id: payload.userId };
+    req.user = { _id: payload._id };
+    console.log("req.user:", req.user);
   
     return next();
   };
