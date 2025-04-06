@@ -1,6 +1,7 @@
 const express = require("express");
 const userRouter = require("../routes/users");
 const savedNewsRouter = require("../routes/savedNews");
+const keywordsRouter = require("../routes/keywords");
 const { login, createUser } = require("../controller/users");
 const {
   validateUserInfo,
@@ -16,9 +17,9 @@ router.post("/signin", validateUserLogin, login);
 
 router.use("/users", userRouter);
 router.use("/saveNews", savedNewsRouter);
+router.use("/keywords",keywordsRouter );
 
-router.use((_req, _res, next) => {
-  console.log(`request: ${_req.method} ${_req.originalUrl}`);
+router.use((req, res, next) => {
   next(new NotFoundError("Requested resource not found"));
 });
 

@@ -5,6 +5,8 @@ const auth = require('../middlewares/auth');
 
 router.get("/me", auth, controllerUsers.getCurrentUser);
 
+router.get("/check-email", controllerUsers.checkEmail);
+
 
 
 module.exports = router;
