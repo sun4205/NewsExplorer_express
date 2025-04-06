@@ -88,12 +88,11 @@ const deleteArticle = (req, res, next) => {
   if (!userId) {
     return next(new UnauthorizedError("please login!"));
   }
+  const savedArticles = readArticlesFromFile();
 
   console.log("Saved Articles:", savedArticles);
   console.log("Article ID:", articleId);
   console.log("User ID:", userId);
-
-  const savedArticles = readArticlesFromFile();
 
   const articleIndex = savedArticles.findIndex(
     (article) => article.id === articleId && article.userId === userId
