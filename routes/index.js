@@ -1,7 +1,7 @@
 const express = require("express");
 const userRouter = require("../routes/users");
 const savedNewsRouter = require("../routes/savedNews");
-const keywordsRouter = require("../routes/keywords");
+
 const { login, createUser } = require("../controller/users");
 const {
   validateUserInfo,
