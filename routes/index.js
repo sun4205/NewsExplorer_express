@@ -17,7 +17,6 @@ router.post("/signin", validateUserLogin, login);
 
 router.use("/users", userRouter);
 router.use("/saveNews", savedNewsRouter);
-router.use("/keywords",keywordsRouter );
 
 router.use((req, res, next) => {
   next(new NotFoundError("Requested resource not found"));

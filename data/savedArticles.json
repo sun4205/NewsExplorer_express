@@ -1,11 +1,194 @@
 [
   {
-    "id": "7a857d80-0d1f-43de-9184-01d73249af14",
-    "userId": "1743879993450",
+    "id": "a3ddeea0-2349-42a6-8466-554928978cfc",
+    "userId": "1743881549235",
+    "source": "The Verge",
+    "title": "Six thoughts on Apple’s new M3 iPad Air",
+    "date": "March 09, 2025",
+    "description": "This yearâs iPad Air was a surprise to me. Apple launched the last Air less than a year ago, and that was a very good device that could already support Apple Intelligence â and most of Appleâs recent gadget upgrades have been about supporting Apple Inte…",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/257606_iPad_air_ADiBenedetto_0002.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+  },
+  {
+    "id": "dc4a123a-6586-4f20-aabd-e8237d61d2d4",
+    "userId": "1743881549235",
+    "source": "The Verge",
+    "title": "Apple has revealed a Passwords app vulnerability that lasted for months",
+    "date": "March 18, 2025",
+    "description": "Apple fixed a bug in the iOS 18.2 Passwords app that, for three months starting with the release of iOS 18, made users vulnerable to phishing attacks, according to an Apple security content update spotted by 9to5Mac. Here’s how Apple describes the bug and its…",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK071_APPLE_B.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+  },
+  {
+    "id": "a3ddeea0-2349-42a6-8466-554928978cfc",
+    "userId": "1743881549235",
+    "source": "The Verge",
+    "title": "Six thoughts on Apple’s new M3 iPad Air",
+    "date": "March 09, 2025",
+    "description": "This yearâs iPad Air was a surprise to me. Apple launched the last Air less than a year ago, and that was a very good device that could already support Apple Intelligence â and most of Appleâs recent gadget upgrades have been about supporting Apple Inte…",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/257606_iPad_air_ADiBenedetto_0002.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+  },
+  {
+    "id": "e7275223-d1da-49a1-9ca1-3f7b4c33efa4",
+    "userId": "1743881549235",
+    "source": "The Verge",
+    "title": "Six thoughts on Apple’s new M3 iPad Air",
+    "date": "March 09, 2025",
+    "description": "This yearâs iPad Air was a surprise to me. Apple launched the last Air less than a year ago, and that was a very good device that could already support Apple Intelligence â and most of Appleâs recent gadget upgrades have been about supporting Apple Inte…",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/257606_iPad_air_ADiBenedetto_0002.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+  },
+  {
+    "id": "4b67f1c0-fef5-4610-98d6-4cccc0ea0a42",
+    "userId": "1743881549235",
     "source": "The Verge",
     "title": "Apple says it’ll use Apple Maps Look Around photos to train AI",
     "date": "March 25, 2025",
     "description": "Sometime earlier this month, Apple updated a section of its website that discloses how it collects and uses imagery for Apple Maps’ Look Around feature, which is similar to Google Maps’ Street View, as spotted by 9to5Mac. A newly added paragraph reveals that,…",
     "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23973407/Screen_Shot_2022_08_25_at_8.04.30_PM.png?quality=90&strip=all&crop=0%2C6.4223280998251%2C100%2C87.15534380035&w=1200"
+  },
+  {
+    "id": "3663eada-0708-4d1f-b234-43672f545b60",
+    "userId": "1743881549235",
+    "source": "The Verge",
+    "title": "Six thoughts on Apple’s new M3 iPad Air",
+    "date": "March 09, 2025",
+    "description": "This yearâs iPad Air was a surprise to me. Apple launched the last Air less than a year ago, and that was a very good device that could already support Apple Intelligence â and most of Appleâs recent gadget upgrades have been about supporting Apple Inte…",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/257606_iPad_air_ADiBenedetto_0002.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+  },
+  {
+    "id": "5e3edc15-cec0-4494-8e23-a7398fa33cf6",
+    "userId": "1743881549235",
+    "source": "Gizmodo.com",
+    "title": "The Atari Asteroids Watch Is So Beautiful, I Don’t Care How Poorly It Tells Time",
+    "date": "March 14, 2025",
+    "description": "Nubeo’s limited edition Atari Asteroids watch respects the manic nature of high-stakes arcade gaming.",
+    "image": "https://gizmodo.com/app/uploads/2025/03/Atari-Nubeo-45th-Limited-Edition-Watch-2.jpg"
+  },
+  {
+    "id": "cb16e512-69b0-464e-a71d-85ab1a4b4e9f",
+    "userId": "1743881549235",
+    "source": "The Verge",
+    "title": "Six thoughts on Apple’s new M3 iPad Air",
+    "date": "March 09, 2025",
+    "description": "This yearâs iPad Air was a surprise to me. Apple launched the last Air less than a year ago, and that was a very good device that could already support Apple Intelligence â and most of Appleâs recent gadget upgrades have been about supporting Apple Inte…",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/257606_iPad_air_ADiBenedetto_0002.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+  },
+  {
+    "id": "44b5a0db-37dc-4aa1-93c2-d2841f9ad905",
+    "userId": "1743881549235",
+    "source": "The Verge",
+    "title": "Apple says it’ll use Apple Maps Look Around photos to train AI",
+    "date": "March 25, 2025",
+    "description": "Sometime earlier this month, Apple updated a section of its website that discloses how it collects and uses imagery for Apple Maps’ Look Around feature, which is similar to Google Maps’ Street View, as spotted by 9to5Mac. A newly added paragraph reveals that,…",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23973407/Screen_Shot_2022_08_25_at_8.04.30_PM.png?quality=90&strip=all&crop=0%2C6.4223280998251%2C100%2C87.15534380035&w=1200"
+  },
+  {
+    "id": "1665f4fc-cc2c-4234-a722-7c4d1c3f6440",
+    "userId": "1743881549235",
+    "source": "Seths.blog",
+    "title": "The name doesn’t matter (that much)",
+    "date": "March 27, 2025",
+    "description": "Busy people in important organizations waste a lot of time naming things. It could be that once a name is good enough, you’re done. That’s certainly true for the logo. Nike is hard to pronounce. Starbucks is named after an obscure character in a mostly unread…",
+    "image": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
+  },
+  {
+    "id": "9f7d5236-ed31-450f-9b46-850716fbf845",
+    "userId": "1743881549235",
+    "source": "The Verge",
+    "title": "Six thoughts on Apple’s new M3 iPad Air",
+    "date": "March 09, 2025",
+    "description": "This yearâs iPad Air was a surprise to me. Apple launched the last Air less than a year ago, and that was a very good device that could already support Apple Intelligence â and most of Appleâs recent gadget upgrades have been about supporting Apple Inte…",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/257606_iPad_air_ADiBenedetto_0002.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+  },
+  {
+    "id": "4c788ce4-6a4a-4712-9afb-46a348b827f1",
+    "userId": "1743881549235",
+    "source": "Gizmodo.com",
+    "title": "The Atari Asteroids Watch Is So Beautiful, I Don’t Care How Poorly It Tells Time",
+    "date": "March 14, 2025",
+    "description": "Nubeo’s limited edition Atari Asteroids watch respects the manic nature of high-stakes arcade gaming.",
+    "image": "https://gizmodo.com/app/uploads/2025/03/Atari-Nubeo-45th-Limited-Edition-Watch-2.jpg"
+  },
+  {
+    "id": "518ec1a4-f1c9-40ea-b014-23f0182ed5aa",
+    "userId": "1743881549235",
+    "source": "The Verge",
+    "title": "Six thoughts on Apple’s new M3 iPad Air",
+    "date": "March 09, 2025",
+    "description": "This yearâs iPad Air was a surprise to me. Apple launched the last Air less than a year ago, and that was a very good device that could already support Apple Intelligence â and most of Appleâs recent gadget upgrades have been about supporting Apple Inte…",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/257606_iPad_air_ADiBenedetto_0002.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+  },
+  {
+    "id": "63aeffe3-a9ac-46e5-990d-a18e3c18e4a3",
+    "userId": "1743881549235",
+    "source": "Seths.blog",
+    "title": "The name doesn’t matter (that much)",
+    "date": "March 27, 2025",
+    "description": "Busy people in important organizations waste a lot of time naming things. It could be that once a name is good enough, you’re done. That’s certainly true for the logo. Nike is hard to pronounce. Starbucks is named after an obscure character in a mostly unread…",
+    "image": "https://seths.blog/wp-content/uploads/2018/06/seth_godin_ogimages_v02_18061316.jpg"
+  },
+  {
+    "id": "954fd1cb-8fca-45f9-b3b8-5597f49a76a4",
+    "userId": "1743881549235",
+    "source": "The Verge",
+    "title": "Six thoughts on Apple’s new M3 iPad Air",
+    "date": "March 09, 2025",
+    "description": "This yearâs iPad Air was a surprise to me. Apple launched the last Air less than a year ago, and that was a very good device that could already support Apple Intelligence â and most of Appleâs recent gadget upgrades have been about supporting Apple Inte…",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/257606_iPad_air_ADiBenedetto_0002.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+  },
+  {
+    "id": "c0921e3e-ae91-4b65-a402-9afa7ec1c245",
+    "userId": "1743881549235",
+    "source": "The Verge",
+    "title": "Apple says it’ll use Apple Maps Look Around photos to train AI",
+    "date": "March 25, 2025",
+    "description": "Sometime earlier this month, Apple updated a section of its website that discloses how it collects and uses imagery for Apple Maps’ Look Around feature, which is similar to Google Maps’ Street View, as spotted by 9to5Mac. A newly added paragraph reveals that,…",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23973407/Screen_Shot_2022_08_25_at_8.04.30_PM.png?quality=90&strip=all&crop=0%2C6.4223280998251%2C100%2C87.15534380035&w=1200"
+  },
+  {
+    "id": "bf3e274f-8097-4c61-8bb9-b9ed7894c3b6",
+    "userId": "1743879993450",
+    "source": "Business Insider",
+    "title": "I've visited celebrity-loved ski towns in Italy and Colorado. Here's where to go if you want to feel like an A-lister without breaking the bank.",
+    "date": "March 19, 2025",
+    "description": "Aspen, Colorado, and Cortina d'Ampezzo, Italy, attract celebrities and wealthy travelers. I've visited both and prefer the more affordable ski town.",
+    "image": "https://i.insider.com/67d9d4e5b8b41a9673fb053a?width=1200&format=jpeg",
+    "keywords": [
+      "nature"
+    ]
+  },
+  {
+    "id": "84d8b05c-151c-4ccd-bcca-d6c079cc0a16",
+    "userId": "1743879993450",
+    "source": "Business Insider",
+    "title": "I spent 3 nights in a secluded lodge in Italy's Dolomites. The views were unreal, but they weren't even the best part.",
+    "date": "April 05, 2025",
+    "description": "Forestis Dolomites, a five-star hotel in Italy, offers striking mountain views and a spa with five saunas, two infinity pools, and a cold plunge.",
+    "image": "https://i.insider.com/67eead5f63d72727e19918c0?width=1200&format=jpeg",
+    "keywords": [
+      "nature"
+    ]
+  },
+  {
+    "id": "8db3b13e-1e2d-4239-b329-eb19b76eeaad",
+    "userId": "1743879993450",
+    "source": "Android Central",
+    "title": "Amazon has chopped 35% OFF the Beats Solo 4 wireless headphones for a limited time",
+    "date": "April 05, 2025",
+    "description": "Multiple retailers are offering 35% discounts on the Beats Solo 4s, offering a solid deal on a great pair of on-ear headphones.",
+    "image": "https://cdn.mos.cms.futurecdn.net/yc4eMVSqobpXPxmHuWzrFG-1200-80.jpg",
+    "keywords": [
+      "nature"
+    ]
+  },
+  {
+    "id": "3525e640-d277-4a12-8ace-db5bfab18ec3",
+    "userId": "1743879993450",
+    "source": "The Verge",
+    "title": "Space science is under threat from the anti-DEI purge",
+    "date": "March 19, 2025",
+    "description": "The space science community has long prided itself on its ability to inspire and move people of all backgrounds, but President Donald Trumpâs recent executive orders demanding the end of diversity programs have thrown that optimism into chaos. In response, …",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/257617_Science_under_attack_CVirginia-.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "keywords": [
+      "nature"
+    ]
   }
 ]

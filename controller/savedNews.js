@@ -46,11 +46,9 @@ const getSavedArticles = (req, res, next) => {
 const savedArticle = (req, res, next) => {
   console.log("Received data:", req.body);
   const userId = req.user._id;
-  const { id, source, title, date, description, image, keywords, savedQuery } =
-    req.body;
+  const { id, source, title, date, description, image, keywords } = req.body;
 
   console.log(req.body);
-  console.log("savedQuery:", savedQuery);
 
   if (!userId) {
     return next(new UnauthorizedError("please login!"));
@@ -70,7 +68,6 @@ const savedArticle = (req, res, next) => {
     description,
     image,
     keywords,
-    savedQuery,
   };
   console.log("newArticle:", newArticle);
 
