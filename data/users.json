@@ -22,5 +22,17 @@
     "username": "hanna",
     "email": "eee@eee.com",
     "password": "$2b$10$VSbjlV7a4QjknXVrktJapOrx1dziTSiu48eeZvsFNRSYyXMj07Kda"
+  },
+  {
+    "_id": "1744375476357",
+    "username": "hanna",
+    "email": "fff@fff.com",
+    "password": "$2b$10$Cku2ZXBbLubwZpTygtKnTuJUZ3pUuDuxFS4q/WbfoEmOYR8GIVGnO"
+  },
+  {
+    "_id": "1744399964963",
+    "username": "hanna",
+    "email": "ggg@ggg.com",
+    "password": "$2b$10$oxDpOAxGEnIOhLDbLRQwFO6RyMAbuz9zlngad57aohF0c8BnDehAa"
   }
 ]
