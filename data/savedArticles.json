@@ -144,43 +144,67 @@
     "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23973407/Screen_Shot_2022_08_25_at_8.04.30_PM.png?quality=90&strip=all&crop=0%2C6.4223280998251%2C100%2C87.15534380035&w=1200"
   },
   {
-    "id": "bf3e274f-8097-4c61-8bb9-b9ed7894c3b6",
+    "id": "fe46c6d2-18e2-4d85-9749-03b185f21874",
     "userId": "1743879993450",
-    "source": "Business Insider",
-    "title": "I've visited celebrity-loved ski towns in Italy and Colorado. Here's where to go if you want to feel like an A-lister without breaking the bank.",
-    "date": "March 19, 2025",
-    "description": "Aspen, Colorado, and Cortina d'Ampezzo, Italy, attract celebrities and wealthy travelers. I've visited both and prefer the more affordable ski town.",
-    "image": "https://i.insider.com/67d9d4e5b8b41a9673fb053a?width=1200&format=jpeg",
+    "source": "BBC News",
+    "title": "BBC reports from 'blistered and burnt' oil tanker in North Sea",
+    "date": "March 12, 2025",
+    "description": "While at least two million litres of jet fuel are in the water, there is some positive news.",
+    "image": "https://ichef.bbci.co.uk/news/1024/branded_news/8fb0/live/d2509920-ff87-11ef-b50e-9d086302645f.jpg",
     "keywords": [
-      "nature"
+      "water"
     ]
   },
   {
-    "id": "f5f92c13-c262-4f28-a6f0-34e9cf1f828d",
+    "id": "02e75559-9d87-4516-bb36-24dbfd298ebc",
     "userId": "1743879993450",
     "source": "Wired",
-    "title": "The Worm That No Computer Scientist Can Crack",
-    "date": "March 26, 2025",
-    "description": "One of the simplest, most over-studied organisms in the world is the C. elegans nematode. For 13 years, a project called OpenWorm has tried—and utterly failed—to simulate it.",
-    "image": "https://media.wired.com/photos/67d861612f5822db0e74e0d4/191:100/w_1280,c_limit/OPEN-WORM-cover-2.jpg",
+    "title": "Meta Tries to Bury a Tell-All Book",
+    "date": "March 14, 2025",
+    "description": "Mark Zuckerberg might be in his post-fact-checking-era. But that hasn’t stopped Meta from going after the author of Careless People.",
+    "image": "https://media.wired.com/photos/67d07ca405fd20234fac21fa/191:100/w_1280,c_limit/Plaintext-Sheryl-Sandberg-Business-2150315380-2.jpg",
     "keywords": [
-      "computer"
+      "book"
     ]
   },
   {
-    "id": "2270136f-f2c5-4f9c-956a-78c8875c4d34",
+    "id": "b0ee8873-e2c0-4bb9-837b-4640f18c8641",
+    "userId": "1743879993450",
+    "source": "The Verge",
+    "title": "MrBeast co-wrote a book with James Patterson",
+    "date": "March 28, 2025",
+    "description": "MrBeast teamed up with Alex Cross author James Patterson to co-write a thriller novel with Squid Game-like elements, according to a report from Deadline. The upcoming book, which doesn’t have a title yet, has reportedly fetched eight-figure bids for the publi…",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/gettyimages-2190631132.jpg?quality=90&strip=all&crop=0%2C10.664355011479%2C100%2C34.900806991341&w=1200",
+    "keywords": [
+      "book"
+    ]
+  },
+  {
+    "id": "ff867205-260e-4dd8-935c-7dc832f0be1f",
     "userId": "1743879993450",
     "source": "Wired",
-    "title": "The Best RAM for Your PC (2025)",
+    "title": "Undergraduate Upends a 40-Year-Old Data Science Conjecture",
     "date": "March 16, 2025",
-    "description": "Building a new computer or looking to upgrade your memory? Here are our favorite options right now.",
-    "image": "https://media.wired.com/photos/67d4a67710fdd78ab5444c92/191:100/w_2580,c_limit/Best%20RAM%20for%20Your%20PC%20Abstract%20Background%20032025%20SOURCE%20Corsair_Crucial_GSkill.jpg",
+    "description": "A young computer scientist and two colleagues show that searches within data structures called hash tables can be much faster than previously deemed possible.",
+    "image": "https://media.wired.com/photos/67d1a33f957eeb91ce82a5c6/191:100/w_1280,c_limit/Hash-Tables-Redux_cr_Nash-Weerasekera-Lede.jpeg",
     "keywords": [
       "computer"
     ]
   },
   {
-    "id": "d8262121-f1cc-44d6-a763-da3236bd1c4c",
+    "id": "503fc09e-4c0b-4c2c-a6cc-c9537ebe5906",
+    "userId": "1744301737972",
+    "source": "The Verge",
+    "title": "Six thoughts on Apple’s new M3 iPad Air",
+    "date": "March 09, 2025",
+    "description": "This yearâs iPad Air was a surprise to me. Apple launched the last Air less than a year ago, and that was a very good device that could already support Apple Intelligence â and most of Appleâs recent gadget upgrades have been about supporting Apple Inte…",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/03/257606_iPad_air_ADiBenedetto_0002.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "keywords": [
+      "apple"
+    ]
+  },
+  {
+    "id": "9ceac1fe-0cf6-445f-9abc-b16948121b07",
     "userId": "1743879993450",
     "source": "BBC News",
     "title": "Kate says nature is family's 'sanctuary' in Mother's Day message",

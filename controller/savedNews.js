@@ -1,15 +1,10 @@
-const bcrypt = require("bcryptjs");
 const fs = require("fs");
 const path = require("path");
-const jwt = require("jsonwebtoken");
-const { JWT_SECRET } = require("../utils/config");
 const NotFoundError = require("../utils/errors/NotFoundError");
 const UnauthorizedError = require("../utils/errors/UnauthorizedError");
 const BadRequestError = require("../utils/errors/BadRequestError");
-const ConflictError = require("../utils/errors/ConflictError");
 
 const ARTICLES_FILE = path.join(__dirname, "..", "data", "savedArticles.json");
-console.log(ARTICLES_FILE);
 
 function readArticlesFromFile() {
   if (!fs.existsSync(ARTICLES_FILE)) {
@@ -44,7 +39,6 @@ const getSavedArticles = (req, res, next) => {
 };
 
 const savedArticle = (req, res, next) => {
-  console.log("Received data:", req.body);
   const userId = req.user._id;
   const { id, source, title, date, description, image, keywords } = req.body;
 
@@ -69,12 +63,10 @@ const savedArticle = (req, res, next) => {
     image,
     keywords,
   };
-  console.log("newArticle:", newArticle);
 
   savedArticles.push(newArticle);
   writeArticlesToFile(savedArticles);
 
-  console.log("writeArticlesToFile called");
   return res.status(200).json({ message: "Article saved successfully" });
 };
 
@@ -87,20 +79,13 @@ const deleteArticle = (req, res, next) => {
   }
   const savedArticles = readArticlesFromFile();
 
-  console.log("Saved Articles:", savedArticles);
-  console.log("Article ID:", articleId);
-  console.log("User ID:", userId);
-
   const articleIndex = savedArticles.findIndex(
     (article) => article.id === articleId && article.userId === userId
   );
 
   if (articleIndex === -1) {
-    console.log("Article not found:", articleId);
     return next(new NotFoundError("News article not found."));
   }
-
-  console.log("Article found:", savedArticles[articleIndex]);
 
   savedArticles.splice(articleIndex, 1);
   writeArticlesToFile(savedArticles);

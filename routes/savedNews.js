@@ -9,8 +9,8 @@ const {
 
 router.get("/", auth, getSavedArticles);
 
-router.post("/", auth, savedArticle); 
-    
+router.post("/", auth, savedArticle);
+
 router.delete("/:id", auth, deleteArticle);
 
 module.exports = router;

@@ -24,14 +24,12 @@ function writeUsersToFile(users) {
 
 const getCurrentUser = (req, res, next) => {
   const userId = req.user._id;
-  console.log("Request User ID:", userId);
+
   const users = readUsersFromFile();
 
   users.forEach((user) => {
     console.log("user._id:", user._id);
   });
-
- 
 
   const user = users.find((user) => String(user._id) === String(userId));
 
@@ -40,7 +38,6 @@ const getCurrentUser = (req, res, next) => {
     return next(new NotFoundError("User not found"));
   }
 
-  console.log("user:", user);
   res.send(user);
 };
 
@@ -86,7 +83,6 @@ const login = (req, res, next) => {
   const { email, password } = req.body;
 
   if (!email || !password) {
-    console.error("Validation Error: Email and password are required");
     return next(new BadRequestError("Email and password are required."));
   }
   const users = readUsersFromFile();
@@ -104,7 +100,7 @@ const login = (req, res, next) => {
       }
 
       const token = jwt.sign({ _id: user._id }, JWT_SECRET, {
-        expiresIn: "7d",
+        expiresIn: "30d",
       });
       return res.send({ token });
     })
@@ -115,7 +111,7 @@ const login = (req, res, next) => {
 
 const checkEmail = (req, res) => {
   const { email } = req.query;
-  const users = readUsersFromFile(); 
+  const users = readUsersFromFile();
   const existingUser = users.find((user) => user.email === email);
   res.json({ available: !existingUser });
 };
