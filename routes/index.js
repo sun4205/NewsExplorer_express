@@ -14,7 +14,7 @@ const router = express.Router();
 router.post("/signup", validateUserInfo, createUser);
 router.post("/signin", validateUserLogin, login);
 
-router.get("/news", newsApi.getNews);
+router.get("/", newsApi.getNews);
 
 router.use("/users", userRouter);
 
