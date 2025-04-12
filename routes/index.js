@@ -6,12 +6,15 @@ const {
   validateUserInfo,
   validateUserLogin,
 } = require("../middlewares/validation");
+const newsApi = require("../controller/apiNews");
 const NotFoundError = require("../utils/errors/NotFoundError");
 
 const router = express.Router();
 
 router.post("/signup", validateUserInfo, createUser);
 router.post("/signin", validateUserLogin, login);
+
+router.get("/news", newsApi.getNews);
 
 router.use("/users", userRouter);
 
