@@ -22,6 +22,4 @@ It includes user registration and login with encrypted passwords using bcrypt an
 
 
 ## Deploy
-- GitHub(Backend) [NewsExplorer Backend](https://github.com/sun4205/NewsExplorer_express.git)
 - Frontend Website: [NewsExplorer Frontend](https://sun4205.github.io/NewsExplorer)
-- Backend API: [NewsExplorer API Server](https://newsexplorer-express.onrender.com)
